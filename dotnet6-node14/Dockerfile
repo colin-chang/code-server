@@ -10,3 +10,6 @@ RUN curl -sL https://deb.nodesource.com/setup_$NODE_VERSION.x | bash - \
 && apt update \
 && apt install -y nodejs \
 && apt clean
+
+USER coder
+WORKDIR /home/coder/project

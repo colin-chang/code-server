@@ -14,3 +14,6 @@ RUN curl -o dotnet-install.sh https://dotnet.microsoft.com/download/dotnet/scrip
 && apt update \
 && apt install -y libicu-dev \
 && apt clean
+
+USER coder
+WORKDIR /home/coder/project
