@@ -1,6 +1,6 @@
-FROM codercom/code-server:latest
+FROM codercom/code-server:4.5.0
 
-LABEL version="1.0" maintainer="colinchang<zhangcheng5468@gmail.com>"
+LABEL version="4.5.0" maintainer="colinchang<zhangcheng5468@gmail.com>"
 
 ENV DOTNET_VERSION=6.0
 
